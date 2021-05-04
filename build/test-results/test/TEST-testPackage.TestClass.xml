@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testPackage.TestClass" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-04T12:24:47" hostname="qa" time="0.003">
+  <properties/>
+  <testcase name="startTest" classname="testPackage.TestClass" time="0.003"/>
+  <system-out><![CDATA[Test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
