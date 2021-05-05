@@ -16,20 +16,22 @@ public class TestClass {
     static WebDriver driver;
     static BasePage basePage;
 
+
     @BeforeClass
     private void beforeAll(){
         System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
-       driver = new ChromeDriver();
         //open("http://google.com");
         ChromeOptions options = new ChromeOptions();
-
         //driver = getWebDriver();
+        options.addArguments("--headless");
+        options.addArguments("--disable-gpu");
+        options.addArguments("--window-size=1400,800");
+        driver = new ChromeDriver(options);
         basePage = new BasePage(driver);
         driver.manage().window().maximize();
-        options.addArguments("--headless");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get("http://test");
-        driver = new ChromeDriver(options);
+        driver.get("http://google.com");
+
     }
 
     @Test(description = "Default Test")
