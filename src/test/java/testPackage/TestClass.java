@@ -33,6 +33,6 @@ public class TestClass {
 
     @AfterClass
     private void afterAll(){
-        driver.close();
+//        driver.close();
     }
 }
