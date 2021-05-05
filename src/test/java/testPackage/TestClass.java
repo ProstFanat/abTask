@@ -9,16 +9,16 @@ import resources.*;
 
 public class TestClass {
 
-    public static WebDriver driver;
-    public static BasePage basePage;
+    static WebDriver driver;
+    static BasePage basePage;
 
     @BeforeClass
     private void beforeAll(){
-//        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
-//        driver = new ChromeDriver();
-//        basePage = new BasePage(driver);
-//        driver.manage().window().maximize();
-//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+        driver = new ChromeDriver();
+        basePage = new BasePage(driver);
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @Test(description = "Default Test")
@@ -33,6 +33,6 @@ public class TestClass {
 
     @AfterClass
     private void afterAll(){
-//        driver.close();
+        driver.close();
     }
 }
