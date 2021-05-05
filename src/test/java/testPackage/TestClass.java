@@ -14,11 +14,11 @@ public class TestClass {
 
     @BeforeClass
     private void beforeAll(){
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
-        driver = new ChromeDriver();
-        basePage = new BasePage(driver);
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+//        driver = new ChromeDriver();
+//        basePage = new BasePage(driver);
+//        driver.manage().window().maximize();
+//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @Test(description = "Default Test")
