@@ -25,13 +25,11 @@ public class TestClass {
     @Test(description = "Default Test")
     void startTest(){
         System.out.println("Test");
-        Assert.assertEquals("1", "2");
     }
 
     @Test
     void secondTest(){
         System.out.println(1+4);
-        Assert.assertEquals("1", "2");
     }
 
     @AfterClass

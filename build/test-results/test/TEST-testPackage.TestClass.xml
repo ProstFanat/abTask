@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testPackage.TestClass" tests="2" skipped="0" failures="2" errors="0" timestamp="2021-05-05T08:35:04" hostname="qa" time="0.207">
+<testsuite name="testPackage.TestClass" tests="2" skipped="0" failures="2" errors="0" timestamp="2021-05-05T09:47:38" hostname="qa" time="0.425">
   <properties/>
-  <testcase name="secondTest" classname="testPackage.TestClass" time="0.058">
+  <testcase name="secondTest" classname="testPackage.TestClass" time="0.121">
     <failure message="java.lang.AssertionError: expected [2] but found [1]" type="java.lang.AssertionError">java.lang.AssertionError: expected [2] but found [1]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
@@ -62,7 +62,7 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="startTest" classname="testPackage.TestClass" time="0.002">
+  <testcase name="startTest" classname="testPackage.TestClass" time="0.001">
     <failure message="java.lang.AssertionError: expected [2] but found [1]" type="java.lang.AssertionError">java.lang.AssertionError: expected [2] but found [1]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
@@ -126,12 +126,12 @@
   <system-out><![CDATA[5
 Test
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 24839
+  <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 31870
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1620203704,225][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
-May 05, 2021 11:35:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1620208057,771][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
+May 05, 2021 12:47:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
