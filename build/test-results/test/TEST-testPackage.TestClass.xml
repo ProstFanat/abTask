@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testPackage.TestClass" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-05-05T15:01:30" hostname="qa" time="0.151">
+<testsuite name="testPackage.TestClass" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-27T11:01:09" hostname="qa" time="0.057">
   <properties/>
-  <testcase name="secondTest" classname="testPackage.TestClass" time="0.038"/>
-  <testcase name="startTest" classname="testPackage.TestClass" time="0.002"/>
-  <system-out><![CDATA[5
-Test
+  <testcase name="startTest" classname="testPackage.TestClass" time="0.057"/>
+  <system-out><![CDATA[Test
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 24002
+  <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 4421
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1620226889,414][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
-May 05, 2021 6:01:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1622113268,236][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+May 27, 2021 2:01:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
