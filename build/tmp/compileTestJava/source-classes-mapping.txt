@@ -1,2 +1,4 @@
 testPackage/TestClass.java
  testPackage.TestClass
+conduit/FilterTag.java
+ conduit.FilterTag

@@ -19,7 +19,7 @@ public class TestClass {
     @BeforeClass
     private void beforeAll(){
         drivers = new DriversSetUp();
-        driver = drivers.getChromeDriver();
+        driver = drivers.getChromeDriverWindows();
         basePage = new BasePage(driver);
 
         driver.get("http://google.com");
@@ -39,4 +39,5 @@ public class TestClass {
     private void afterAll(){
         driver.close();
     }
+
 }
